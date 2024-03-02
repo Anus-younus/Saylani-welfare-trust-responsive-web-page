@@ -1,0 +1,146 @@
+.main-container{
+    padding: 100px;
+}
+.container-child p{
+    color: gray;
+}
+.headings h1 span{
+    color: #a0d05f;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+}
+.explore{
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.nav-link{
+    font-size: 14px;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.navbar{
+    background-color: #fff !important;
+    border-bottom: 1px solid lightgray;
+    padding: 0px 40px;
+}
+.navbar-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+.button-1{
+  padding: 5px 30px;
+  background-color: #0d6db7;
+  border-radius: 10px;
+  border: 1px solid #0d6db7;
+  cursor: pointer;
+  margin: 0px 10px 0px 20px;
+}
+.button-2{
+    padding: 5px 30px;
+    background-color: #a0d05f;
+    border-radius: 10px;
+    border: 1px solid #0d6db7;
+    cursor: pointer;
+    margin: 0px 10px 0px 0px;
+  }
+  .button-1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  .button-2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  .top{
+    width: 100%;
+    background-color: lightgray;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    align-items: center;
+  }
+  .top-child{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 20px;
+  }
+  .top-child p{
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+.top-button{
+    background-color: #fff;
+    border: none;
+    padding: 5px 30px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px){
+    .container-child img{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    .button-1, .button-2{
+        margin: 0px;
+    }
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-toggler{
+        margin-left: 10px;
+    }
+    .main-container{
+        padding: 50px;
+    }
+    .navbar-nav{
+        gap: 2px;
+        margin: 0px;
+    }
+    .top{
+        width: 100%;
+        background-color: lightgray;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        align-items: center;
+      }
+      .top-child{
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        height: 0px;
+        padding: 0px;
+        margin-right: 20px;
+      }
+      .top-child p{
+        font-size: 11px;
+        display: flex;
+        gap: 0px;
+        margin-top: 0px;
+      }
+}
