@@ -95,6 +95,65 @@ h2{
     padding: 5px 30px;
     font-size: 14px;
 }
+.child-mid div{
+    background-color: #f0fcdb;
+    height: 130px;
+    width: 160px;
+    border-radius: 10px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.child-mid div:hover{
+    transform: scale(1.1);
+}
+.cards{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.cards img:hover{
+    filter: brightness(60%);
+}
+.cards img{
+    filter: brightness(40%);
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.middle{
+    height: 40em;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    padding: 40px;
+}
+.middle-child p{
+    color: #fff;
+    position: relative;
+    top: 15em;
+    z-index: 99;
+    left: 1em;
+    width: 20em;
+    border-radius: 5px;
+    border: none;
+  }
+.middle-child button{
+  position: relative;
+  top: 15em;
+  background-color: #a0d05f;
+  z-index: 99;
+  left: 1em;
+  width: 20em;
+  border-radius: 5px;
+  border: none;
+}
+.middle-child button a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 14px;
+}
 
 @media only screen and (max-width: 600px){
     .container-child img{
@@ -142,5 +201,17 @@ h2{
         display: flex;
         gap: 0px;
         margin-top: 0px;
+      }
+      .child-mid{
+        flex-direction: column;
+      }
+      .child-mid div{
+        width: 120%;
+      }
+      .middle-child{
+        flex-direction: column;
+      }
+      .middle{
+        height: 60em;
       }
 }
