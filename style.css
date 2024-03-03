@@ -91,7 +91,8 @@ h2{
   }
 .top-button{
     background-color: #fff;
-    border: none;
+    border: 0;
+    outline: 0;
     padding: 5px 30px;
     font-size: 14px;
 }
@@ -123,7 +124,7 @@ h2{
     transition: .5s ease;
 }
 .middle{
-    height: 40em;
+    height: 50em;
     display: flex;
     gap: 100px;
     flex-direction: column;
@@ -154,7 +155,70 @@ h2{
    text-decoration: none;
    font-size: 14px;
 }
+.child-1{
+  padding: 100px;
+  height: 24em;
+}
+.footer{
+  background-image: url(./images/footer.png);
+  border: 1px solid green;
+  background-color: #424242;
+  height: 110vh;
+  width: 100%;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-nav h4{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
 
+}
+.child-2-child{
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  width: 80%;
+}
+.child-3-child{
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+.child-3-child p{
+  font-size: 14px;
+  color: #fff;
+  padding: 10px;
+}
+.bi-facebook{
+  background-color: #5571e3;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+.bi-twitter{
+  background-color: #50bac3;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+.bi-whatsapp{
+  background-color: #e36955;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+.bi-youtube{
+  background-color: #008000;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 600px){
     .container-child img{
         display: none;
@@ -212,6 +276,17 @@ h2{
         flex-direction: column;
       }
       .middle{
-        height: 60em;
+        height: 140em;
+      }
+      .footer{
+        height: 100em;
+      }
+      .footer-child{
+        flex-direction: column;
+      }
+      .child-1{
+        flex-direction: column;
+        height: 70em;
+        text-align: center;
       }
 }
