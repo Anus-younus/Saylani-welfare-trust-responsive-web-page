@@ -24,9 +24,13 @@ h2{
 }
 .nav-link{
     font-size: 14px;
+    transition: border .5s ease;
 }
 .navbar-brand{
     margin-left: 50px;
+}
+.nav-link:hover{
+  border-bottom: 1px solid #a0d05f;
 }
 .navbar{
     background-color: #fff !important;
